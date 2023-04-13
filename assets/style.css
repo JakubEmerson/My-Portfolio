@@ -16,7 +16,7 @@ nav{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding-right: 10%;
+  padding-right: 10%; 
   padding-left: 10%;
   padding-top: 50px;
 }
@@ -27,7 +27,7 @@ nav{
   letter-spacing: 3px;
   cursor: pointer;
 }
-/* changed the font size,spaceed the letters out and capitalized the letters and made them lighter then the logo */
+/* changed the font size,spaced the letters out and capitalized the letters and made them lighter then the logo */
 nav ul li a{
   font-size: 20px;
   color: blue;
@@ -39,6 +39,50 @@ nav ul li a{
 nav ul li a:hover{
   color: red;
 }
-
-
+/* changed the background to the tanish color and gave the picture some padding and width*/
+.About{
+  width: 100%;
+  padding: 100px 0px;
+  background-color: antiquewhite;
+}
+/*changed the size of the picture*/
+.About img{
+  height: auto;
+  width: 400px;
+}
+/* puts the about me text out in the middle away from the picture */
+.About-text{
+  width: 530px;
+}
+/* puts the about me text out in the middle away from the picture and this puts the txt in the middle of the picture */
+.main{
+  width: 1400px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* changed the About Me to red gave the font a size, capitalized the letters and gave it a margin so it was off h4 */
+.About-text h2{
+  color: red;
+  font-size: 35px;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+} 
+/* basically the same steps as h2 but gave the letters some spacing and reduced font size */
+.About-text h4{
+color: red;
+letter-spacing: 2px;
+font-size: 15px;
+margin-bottom: 8px;
+text-transform: capitalize;
+}
+/* second verse same as the first but changed the font save and gave the paragrapgh a new font family no color to txt and reduced font size */
+.About-text p{
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 15px;
+  margin-bottom: 8px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
