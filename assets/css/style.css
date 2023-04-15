@@ -40,15 +40,15 @@ nav ul li a:hover{
   color: red;
 }
 /* changed the background to the tanish color and gave the picture some padding and width*/
-.About{
+.About-Me{
   width: 100%;
   padding: 100px 0px;
   background-color: antiquewhite;
 }
 /*changed the size of the picture*/
-.About img{
+.About-Me img{
   height: auto;
-  width: 400px;
+  width: 30%;
 }
 /* puts the about me text out in the middle away from the picture */
 .About-text{
